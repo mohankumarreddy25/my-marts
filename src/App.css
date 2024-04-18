@@ -1,0 +1,253 @@
+.navbar{
+  position: fixed;
+  z-index: 1px;
+  margin:0px;
+  height: 55px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  
+}
+#navbarNavAltMarkup{
+  justify-content: right;
+  padding:0px 100px;
+}
+#title{
+  padding-left: 100px;
+  width: 30%;
+  display: inline;
+}
+#bagIcon{
+  width: 150px;
+}
+.navbar-nav{
+  font-size:17px;
+  font-weight:500;
+  gap:20px;
+}
+
+
+/* Discount */
+
+
+
+
+/* options */
+
+.displayOptions{
+  padding: 50px 100px;
+  display: flex;
+}
+.OptionsCard{
+  width: 30%;
+  text-align: center;
+  margin:3px;
+  padding: 20px;
+}
+.OptionsCard h5{
+  font-size: 16px;
+  margin: 13px;
+}
+.bookDetails{
+  font-size: 13px;
+} 
+.iconBg{
+width: 1.7rem;
+height: 1.7rem;
+border-radius: 50%;
+background-color:whitesmoke;
+margin: auto;
+}
+
+
+/* BigDiscount */
+.BDiscount h1, .newArrivals h1, .BestSales h1{
+  text-align: center;
+  font-size: 30px;
+}
+.BDiscount, .newArrivals, .BestSales {
+  padding:2rem 0rem;
+}
+.DiscountProducts, .recommendedProducts, .productcards{
+  display: flex;
+  flex-wrap: wrap;
+  padding:0% 14.5%;
+  justify-content: center;
+}
+.displayCard{
+margin:10px;
+width: 275px;
+box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+border-radius: 10px;
+padding:5px;
+background-color: white;
+}
+.discountBg{
+  position:relative;
+  top:10px;
+  left:8px;
+  background-color: rgb(40, 55, 91);
+  color: white;
+  width:60px;
+  height: 22px;
+  padding:2px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 20px;
+}
+.samplediv{
+  display:flex;
+}
+.heart, .heartIcon{
+  color: transparent;
+  position: relative;
+  left:67%;
+}
+
+
+.displayCard:hover .heart{
+  color: rgb(40, 55, 91);
+}
+
+.heartIcon{
+  position: relative;
+  left:68%;
+}
+
+.cbody{
+ margin: 10px; 
+}
+.cbody p{
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0px;
+}
+.Addplus{
+  border:solid 1px rgb(235, 235, 236);
+  width:1.7rem;
+  height:1.7rem;
+  border-radius: 50%;
+}
+.Addplus:hover{
+  background-color:rgb(40, 55, 91);
+  color: white;
+}
+
+.Dimage{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.Dimage img{
+
+  height:9rem;
+  object-fit:fill;
+}
+.star{
+  color:#fdb915;
+}
+.newArrivals{
+height: max-content;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ 
+}
+
+.Footer{
+  background-color: rgb(27, 35, 77);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding:60px 100px;
+}
+.Footer h5{
+font-size: 20px;
+margin-bottom: 20px;
+}
+.Footer h4{
+  font-size: 22px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.mart, .AboutUS, .CustomerCare, .Contactus{
+  width:14rem;
+}
+.Footer p{
+  color: rgb(234, 241, 255);
+  font-size: 14px;
+  margin:5px;
+}
+
+
+/* Product Details */
+
+.product-details{
+  height:fit-content;
+}
+#producttitle{
+ position: relative;
+ top: -6rem;
+ text-align: center;
+ font-size:33px;
+ color: white;
+}
+.Pagebackground{
+  margin-top: 40px;
+}
+#table{
+  width: 100%;
+  position: relative;
+  filter: brightness(40%);
+  height: 10rem;
+  object-fit: cover;
+}
+.productInfo{
+  display: flex;
+  height:23rem;
+}
+.productImg{
+  width: 50%;
+  height: 300px;
+  padding: 0px 10px;
+}
+.productImg img{
+  height: 550px;
+  width: 100%;
+  object-fit:contain;
+}
+.productDescription{
+  margin-top:40px;
+  width: 50%;
+}
+
+.Rating{
+  position: relative;
+  left:6.5rem;
+  top:-1.2rem;
+  font-size: 15px
+}
+.priceCategory{
+  display: flex;
+  gap:1.5rem;
+}
+#Count{
+  width:4rem;
+  height:1.5rem;
+  border:solid 1.2px black;
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+}
+#AddToCart{
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: rgb(1, 1, 107);
+  color: white;
+  font-size: 15px;
+  padding:6px 10px;
+  border-style: none;
+}
+.detailedDescription{
+  padding:80px 80px 0px 80px;
+}
+.detailedDescription p, .productDescription p{
+  color:gray;
+  font-size: 14px;
+}
