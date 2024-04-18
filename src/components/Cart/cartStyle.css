@@ -1,0 +1,98 @@
+.pageTitle h1, .CartPage h2{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.CartPage, .pageTitle{
+  background-color:rgb(244, 247, 253);
+}
+.cartDivisions{
+  display: flex;
+  margin:20px 100px;
+  gap: 20px;
+}
+.displayCartItems{
+  width: 75%;
+}
+.cartItems{
+    height: 150px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    justify-content:space-evenly
+    
+  }
+  .cartProduct{
+    width: 80%;
+    display: flex;
+  }
+
+  .productImage{
+    width: 30%;
+    height: 180px;
+padding: 10px;
+  }
+  .cartProduct img{
+    height: 140px;
+    width: 100%;
+    object-fit:contain;
+  }
+  .itemDetails{
+    margin:40px 20px;
+  }
+  .itemPrice{
+    margin-top:20px;
+    display: flex;
+    gap: 20px;
+  }
+  .itemIcons{
+    display: flex;
+  }
+  .itemQuantity{
+    display: flex;
+    position: relative;
+    top: 80px;    
+    gap: 5px;
+  }
+  .itemQuantity button{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(194, 193, 193);
+    background-color: transparent;
+    font-size: 30px;
+  }
+  .increase:active, .decrease:active{
+    background-color: aliceblue;
+  }
+  #add, #minus{
+    position: relative;
+    top: -8px;
+  }
+  .crossIcon{
+    position: relative;
+    right: 1%;
+  }
+  .crossIcon span{
+    font-size: 30px;
+    height: 40px;
+  }
+.cartTotal{
+  height: 150px;
+  width: 30%;
+  background-color: white;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.cartTotal h5{
+  font-size: 20px;
+  color: navy;
+}
+.cartTotal p{
+  font-weight: 500;
+  color: navy;
+}
+.cartTotal span{
+  font-size: 15px;
+  color: gray;
+}

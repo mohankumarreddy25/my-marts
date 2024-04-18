@@ -1,0 +1,67 @@
+/* Carousel.css */
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color:rgb(244, 247, 253);
+  }
+  
+  .carousel-content {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .carousel-item {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .carousel-item.active {
+    opacity: 1;
+  }
+      
+  button {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+/* Discount */
+.carousel-content{
+    width: 82%;
+}
+  .discount{
+    width: 100%;
+    display: flex;
+    padding: 100px 0px; 
+    height:max-content;
+  }
+  .discountInfo{
+    padding-top: 50px;
+    width: 50%;
+
+  }
+  .discountInfo h1{
+    font-size:40px;
+  }
+  .discountInfo p{
+    font-size:14px;
+    color: rgb(117, 116, 116);
+  }
+  #visitCollection{
+    background-color: rgba(236, 233, 233, 0.726);
+    width: 20%;
+  }
+  .discountGadget{
+    padding-left: 100px;
+  }
+  #headSetImg{
+    position:absolute;
+    left: 60%;
+    top: 25%;
+    width:30%;
+  }
+  
+  
